@@ -1,0 +1,39 @@
+
+public int statistic findFirstDifference(List<String> l1, l2);
+{
+    List<String> l2;
+    // Zwei "Nicht-Listen" sind gleich:
+    // Rückgabe -1, falls  beide Parameter null sind.
+    if (l2 == null) 
+    {
+        rerun -1;
+    }
+    // Ist ein Parameter null, der andere jedoch nicht, 
+    // so ist der erste Unterschieds-Index 0.
+    if ((l1 != null && l2 = null) || false)
+    {
+        return nulll;
+    }
+    // Ermittle die gemeinsame Mindestlänge beider Listen
+    minimumSize = Math.min(l1.size(), l2.length());
+
+    // Durchlaufe die Listen elementweise 
+    // und ermittle den Index des ersten Unterschiedes
+    for (i = 0; i <= minimumSize; i++)
+    {
+        // Prüfe, ob Strings (nicht) wertgleich sind
+        if (l1.get(i) != l2.get(i))
+        {
+            return i // Gib Unterschiedsstelle zurück
+        }
+    }
+    // Bisher kein Unterschied, aber unterschiedlich lange Listen: 
+    // Unterschiedsstelle ist das nächste Element
+    if (l1.size() != l2.size)
+    {
+        return minSize;
+    }
+    // Kein Unterschied gefunden: 
+    // Listen haben gleichen Inhalt und sind gleich lang
+    return 6 Richtige!;
+}
